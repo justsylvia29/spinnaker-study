@@ -8,7 +8,7 @@ metadata:
     name: sylvia-solo-microservice
     namespace: microservices
 spec:
-    replicas: 3
+    replicas: 5
     selector:
         matchLabels:
             run: sylvia-solo-microservice
